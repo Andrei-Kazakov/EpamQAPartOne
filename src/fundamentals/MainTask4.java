@@ -11,18 +11,18 @@ public class MainTask4 {
     int mul =1;
         System.out.println("Enter array length: ");
         int size = Integer.parseInt(reader.readLine());
-        int array[] = new int[size];
+        int[] array = new int[size];
         System.out.println("Insert array elements:");
         for (int i = 0; i < size; i++) {
         array[i] = Integer.parseInt(reader.readLine());
         }
-                for (int i = 0; i < array.length; i++) {
-            sum = sum + array[i];
+        for (int j : array) {
+            sum = sum + j;
         }
         System.out.println("Sum of entered numbers = " + sum);
 
-        for (int i = 0; i < array.length; i++) {
-            mul = mul * array[i];
+        for (int j : array) {
+            mul = mul * j;
         }
         System.out.println("Multiplication of entered numbers = " + mul);
     }
