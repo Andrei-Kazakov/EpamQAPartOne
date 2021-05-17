@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EpamQAPartOne.iml" filepath="$PROJECT_DIR$/.idea/EpamQAPartOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aircompany.iml" filepath="$PROJECT_DIR$/aircompany.iml" />
     </modules>
   </component>
 </project>

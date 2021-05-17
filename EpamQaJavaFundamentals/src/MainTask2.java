@@ -1,4 +1,4 @@
-package fundamentals;//Отобразить в окне консоли аргументы командной строки в обратном порядке.
+//Отобразить в окне консоли аргументы командной строки в обратном порядке.
 
 import java.io.BufferedReader;
 import java.io.IOException;

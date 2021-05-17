@@ -1,4 +1,4 @@
-package fundamentals;//Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.
+//Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,18 +11,18 @@ public class MainTask4 {
     int mul =1;
         System.out.println("Enter array length: ");
         int size = Integer.parseInt(reader.readLine());
-        int[] array = new int[size];
+        int array[] = new int[size];
         System.out.println("Insert array elements:");
         for (int i = 0; i < size; i++) {
         array[i] = Integer.parseInt(reader.readLine());
         }
-        for (int j : array) {
-            sum = sum + j;
+                for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
         }
         System.out.println("Sum of entered numbers = " + sum);
 
-        for (int j : array) {
-            mul = mul * j;
+        for (int i = 0; i < array.length; i++) {
+            mul = mul * array[i];
         }
         System.out.println("Multiplication of entered numbers = " + mul);
     }

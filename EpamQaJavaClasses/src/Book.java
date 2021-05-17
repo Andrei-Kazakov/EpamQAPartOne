@@ -1,5 +1,3 @@
-package classes;
-
 public class Book {
 
     private final int id;
@@ -22,11 +20,21 @@ public class Book {
         this.binding = binding;
     }
 
+    public int getId() {return id;}
+
+    public String getName() {return name;}
+
     public String getAuthor() {return author;}
 
     public String getPublisher() {return publisher;}
 
     public int getYearOfPublishing() { return yearOfPublishing;}
+
+    public int getPages() {return pages;}
+
+    public int getPrice() {return price;}
+
+    public String getBinding() {return binding;}
 
     @Override
     public  String toString() {
